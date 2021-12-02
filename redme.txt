@@ -1,0 +1,4 @@
+The Project uses react-navigation-stack
+The component screens are under src/screens
+Run 'npm i' in root directory to install required modules
+from the root directory, change the directory cd ios then run pod install (From the ios side)
