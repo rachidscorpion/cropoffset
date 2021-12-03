@@ -3,7 +3,6 @@ import { RNCamera } from 'react-native-camera';
 import { useState } from 'react';
 import { Button, Image, StyleSheet, Text, View } from "react-native";
 import { DragResizeBlock, DragResizeContainer } from "react-native-drag-resize";
-import ImageEditor from "@react-native-community/image-editor";
 
 let CameraScreen = ({navigation}) =>{
     const [resize, setResize] = useState([100, 0])
