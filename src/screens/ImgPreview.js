@@ -1,9 +1,5 @@
 import React from 'react'
 import {View, Text, StyleSheet, Image, Button} from 'react-native'
-import CustomCrop from "react-native-perspective-image-cropper";
-
-import { useState } from 'react';
-import CameraScreen from './CameraScreen';
 
 const ImgPreview = ({navigation}) =>{
     let img = navigation.getParam('fil')
